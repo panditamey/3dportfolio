@@ -142,15 +142,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Jr. Project Technical Assistant (JPTA)",
+    company_name: "Eyantra, IIT Bombay",
+    icon: eyantra,
+    iconBg: "#FFFFFF",
+    date: "July 2023 - Present",
+    points: [
+      "Developed a Mobile Application for Water Information System, enabling users to collect and map different water resources using geolocation and Google Maps integration.",
+      "Implemented secure login and data storage using Firebase Authentication and Cloud Firestore, ensuring a safe and reliable data collection process.",
+      "Demonstrated proficiency in Android app development, geolocation services, Google Maps API, and Firebase integration, delivering a user-friendly and efficient mobile application for water resource management."
+    ],
+  },
+  {
     title: "EYSIP Summer Intern",
     company_name: "Eyantra, IIT Bombay",
     icon: eyantra,
     iconBg: "#FFFFFF",
-    date: "May 2023 - Present",
+    date: "May 2023 - July 2023",
     points: [
       "Enhanced Process of Dataset Collection by Developing Pest Controlling Application that involved Pest Detection, Pest Classification, Image Background Removal.",
       "Executed Background Removal flawlessly by leveraging U-Net architecture to generate masks and employing GrabCut algorithm using OpenCV.",
-      "Achieved remarkable 95% accuracy utilizing UNet architecture and seamlessly integrated TFlite model into an Android App"
+      "Achieved remarkable 95% accuracy utilizing UNet architecture and seamlessly integrated TFlite model into an Android App."
     ],
   },
   {
@@ -172,7 +184,7 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Oct 2021 – Nov 2021",
     points: [
-      "Executed the implementation of data storage modules and the deployment of a serverless backend using Lambda Functions,resulting in a 30% improvement in app performance and scalability",
+      "Executed the implementation of data storage modules and the deployment of a serverless backend using Lambda Functions,resulting in a 30% improvement in app performance and scalability.",
       "Engineered a dynamic Chat Bot that efficiently resolved client issues, contributing to a 20% reduction in customer supportresponse time.",
     ],
   },
